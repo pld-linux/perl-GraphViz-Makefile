@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	GraphViz
-%define	pnam	Makefile
+%define		pdir	GraphViz
+%define		pnam	Makefile
 Summary:	Create Makefile graphs using GraphViz
 Summary(pl):	Tworzenie grafów z plików Makefile wykorzystuj±c GraphViz
 Name:		perl-GraphViz-Makefile
