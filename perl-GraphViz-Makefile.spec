@@ -19,10 +19,9 @@ BuildRequires:	perl-GraphViz
 BuildRequires:	perl-Make
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+Requires:	perl-Tk
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_noautoreq	'perl(anything_fake_or_conditional)'
 
 %description
 Create Makefile graphs using GraphViz.
