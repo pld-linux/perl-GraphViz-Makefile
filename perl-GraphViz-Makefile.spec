@@ -13,7 +13,9 @@ Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+#Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/S/SR/SREZIC/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3ad3c4cc2e4401601bde19ca59cc1efd
 URL:		http://search.cpan.org/~srezic/GraphViz-Makefile-1.12/
 BuildRequires:	perl-GraphViz
 BuildRequires:	perl-Make
