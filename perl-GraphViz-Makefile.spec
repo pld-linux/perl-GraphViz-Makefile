@@ -6,7 +6,7 @@
 %define	pdir	GraphViz
 %define	pnam	Makefile
 Summary:	Create Makefile graphs using GraphViz
-Summary(pl):	Tworzy grafy z plikÃ³w Makefile wykorzystujÄ…c GraphViz
+Summary(pl):	Tworzenie grafów z plików Makefile wykorzystuj±c GraphViz
 Name:		perl-GraphViz-Makefile
 Version:	1.12
 Release:	0.1
@@ -28,7 +28,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Create Makefile graphs using GraphViz.
 
 %description -l pl
-Tworzy grafy z plikÃ³w Makefile wykorzystujÄ…c GraphViz.
+Tworzenie grafów z plików Makefile wykorzystuj±c GraphViz.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
