@@ -8,14 +8,13 @@
 Summary:	Create Makefile graphs using GraphViz
 Summary(pl):	Tworzenie grafów z plików Makefile wykorzystuj±c GraphViz
 Name:		perl-GraphViz-Makefile
-Version:	1.12
+Version:	1.15
 Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-#Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-Source0:	http://www.cpan.org/modules/by-authors/id/S/SR/SREZIC/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	3ad3c4cc2e4401601bde19ca59cc1efd
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	432f7437c71ff72f815e32b8de5f9af3
 URL:		http://search.cpan.org/~srezic/GraphViz-Makefile-1.12/
 BuildRequires:	perl-GraphViz
 BuildRequires:	perl-Make
